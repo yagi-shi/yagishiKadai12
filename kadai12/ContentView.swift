@@ -47,10 +47,7 @@ struct ContentView: View {
             let savedTax = UserDefaults.standard.string(forKey: "myKey")
             tax = savedTax ?? ""
         }
-        // コンポーネント全体を上寄せ
-        VStack {
-            Spacer()
-        }
+        Spacer()
     }
 }
 
